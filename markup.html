@@ -1,0 +1,44 @@
+<table class="table demo">
+  <thead>
+    <tr class="head">
+      <th>Name</th>
+      <th>Birthday</th>
+      <th>Age</th>
+      <th>Sex</th>
+      <th class="text-center">Action</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="add-form">
+      <td data-field="name"><input type="text" class="form-control" value=""></td>
+      <td data-field="birthday"><input type="text" class="form-control datepicker" value=""></td>
+      <td data-field="age"><input type="text" class="form-control" value=""></td>
+      <td data-field="sex">
+        <select class="form-control" name="">
+                  <option value="1">Male</option>
+                  <option value="0">Female</option>
+                </select>
+      </td>
+      <td class="text-center">
+        <button class="btn btn-success add" title="Edit">
+                  <i class="fa fa-plus"></i>
+                </button>
+      </td>
+    </tr>
+    <tr data-id="1">
+      <td data-field="name">Dave Gamache</td>
+      <td data-field="birthday">May 19, 2015</td>
+      <td data-field="age" data-value="0">26</td>
+      <td data-field="sex">Male</td>
+      <td>
+        <a class="btn edit" title="Edit">
+          <i class="fa fa-pencil"></i>
+        </a>
+        <a class="btn delete" title="Edit">
+          <i class="fa fa-trash"></i>
+        </a>
+      </td>
+    </tr>
+
+  </tbody>
+</table>
